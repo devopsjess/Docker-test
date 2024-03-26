@@ -19,8 +19,4 @@ EXPOSE 5000
 
 
 # Run app.py when the container launches
-<<<<<<< HEAD
 CMD ["python", "app.py"]
-=======
-CMD ["python", "app.py"]
->>>>>>> bf593c0662193b24a0881f071412919b0b6a0738
