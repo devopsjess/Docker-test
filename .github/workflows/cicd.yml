@@ -3,7 +3,7 @@ on:
   push:name: cicd-workflow with slack integration
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 jobs:
   job1:
     runs-on: ubuntu-latest
@@ -13,7 +13,7 @@ jobs:
     - uses: act10ns/slack@v2
       with:
         status: starting
-        channel: '#mar-2024-weekend-batch'
+        channel: '#meetups'
         message: Starting Docker Build image...
       if: always()
     - uses: actions/checkout@v3
